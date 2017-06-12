@@ -9,7 +9,7 @@ public class BeforeAfterClass {
 	@BeforeClass
 	public void login()
 	{
-		
+		System.out.println("Adding changes for bug 1234");
 	}
 	@AfterClass
 	public void logout()
